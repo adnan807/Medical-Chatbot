@@ -14,17 +14,9 @@ This project utilizes Langchain, FAISS, and HuggingFace Embeddings to create a m
 The Llama2 Medical Chatbot project aims to provide accurate medical information by using state-of-the-art language models and vector search techniques. It extracts and indexes content from medical literature and allows users to query this content in a user-friendly manner.
 
 # Installation
-1. Clone the repository:
-
-git clone https://github.com/your-username/llama2-medical-chatbot.git
-cd llama2-medical-chatbot
-
-2. Install the required dependencies:
-
-pip install -r requirements.txt
-3. Download the Gale Encyclopedia of Medicine PDF and place it in the specified path:
-
-DATA_PATH = '/content/drive/MyDrive/Projects/Llama2-Medical-Chatbot/71763-gale-encyclopedia-of-medicine.-vol.-1.-2nd-ed.pdf'
+- Clone the repository:
+- Install the required dependencies
+- Download the Gale Encyclopedia of Medicine PDF
 
 # Creating the Vector Database
 To create the vector database from the PDF document, run:
