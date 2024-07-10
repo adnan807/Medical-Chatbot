@@ -4,28 +4,20 @@ This project utilizes Langchain, FAISS, and HuggingFace Embeddings to create a m
 # Table of Contents
 - Introduction
 - Installation
-- Usage
 - Code Overview
 - Vector Database Creation
 - Querying the Vector Database
 - Text Cleaning and Formatting
 
 # Introduction
-The Llama2 Medical Chatbot project aims to provide accurate medical information by using state-of-the-art language models and vector search techniques. It extracts and indexes content from medical literature and allows users to query this content in a user-friendly manner.
+The Llama2 Medical Chatbot is designed to provide accurate and reliable medical information by leveraging advanced language models and vector search techniques. This project utilizes Langchain, FAISS, and HuggingFace Embeddings to construct a vector database from the Gale Encyclopedia of Medicine. Users can query this database to retrieve relevant medical information, making it a valuable tool for medical professionals, students, and anyone seeking trustworthy health-related answers.
 
 # Installation
-- Clone the repository:
-- Install the required dependencies
-- Download the Gale Encyclopedia of Medicine PDF
-
-# Creating the Vector Database
-To create the vector database from the PDF document, run:
-python create_vector_db.py
-
-# Querying the Vector Database
-To query the vector database, modify the QUERY variable in the query_vector_db.py file with your question and run:
-
-python query_vector_db.py
+- langchain
+- langchain_community
+- pypdf
+- sentence-transformers
+- faiss-cpu
 
 # Code Overview
 ## Vector Database Creation
